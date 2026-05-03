@@ -1,0 +1,1 @@
+Фото уже внутри как boris.jpg. Загружай index.html, radio.html и boris.jpg.
