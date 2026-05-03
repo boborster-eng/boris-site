@@ -14,69 +14,77 @@ header{height:76px;display:grid;grid-template-columns:330px 1fr 220px;align-item
 nav{display:flex;justify-content:center;gap:34px;font-size:17px;color:#e4d7bf}nav a{padding:28px 0 25px;position:relative}.active{color:var(--gold2)}.active:after{content:"";position:absolute;height:2px;left:0;right:0;bottom:-1px;background:var(--gold2)}
 .social{display:flex;justify-content:flex-end;gap:18px}.circle{width:42px;height:42px;border:1px solid var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--gold2);font-weight:900}
 .hero{display:grid;grid-template-columns:520px 1fr;gap:58px;min-height:650px;padding-top:28px}
-.portrait{min-height:650px;overflow:hidden;background:radial-gradient(circle at 45% 30%,rgba(216,154,36,.26),transparent 36%),#090705}
-.portrait img{width:100%;height:650px;object-fit:cover;object-position:center top;display:block;filter:contrast(1.05) saturate(.95) brightness(.84)}
-.hero-content{padding-top:52px}.kicker{color:var(--gold);text-transform:uppercase;letter-spacing:2.2px;font-size:16px;margin-bottom:24px;font-weight:700}
-h1{font-size:92px;line-height:.92;margin:0 0 24px;text-transform:uppercase;letter-spacing:1px;font-weight:950;color:#e9dfcf;text-shadow:0 18px 42px rgba(0,0,0,.72)}
-.lead{font-size:18px;line-height:1.72;color:#cfc2ad;max-width:720px;margin:0 0 32px}
-.actions{display:grid;grid-template-columns:290px 250px 260px;gap:26px;margin-bottom:27px}
-.action{min-height:76px;border:1px solid var(--line);border-radius:12px;display:flex;align-items:center;justify-content:center;gap:18px;font-size:18px;font-weight:900;text-transform:uppercase;background:rgba(15,12,8,.55);color:#efe3ce;padding:10px 16px}
-.primary{background:linear-gradient(135deg,#f7c45b,#b97808);color:#130d05;box-shadow:0 10px 28px rgba(216,154,36,.22)}
-.ico{font-size:28px}.action small{display:block;font-size:13px;margin-top:4px;text-transform:none}
-.radio-panel{display:grid;grid-template-columns:360px 1fr;gap:28px;min-height:250px;border:1px solid var(--line);border-radius:14px;background:radial-gradient(circle at 30% 50%,rgba(216,154,36,.18),transparent 35%),rgba(7,6,5,.82);box-shadow:0 16px 48px rgba(0,0,0,.34);overflow:hidden;margin-top:6px}
-.radio-art{min-height:250px;background:radial-gradient(circle at center,rgba(243,189,78,.18),transparent 50%),#110d08;display:flex;align-items:center;justify-content:center;padding:22px}
-.sign{width:100%;max-width:300px;border:2px solid rgba(216,154,36,.45);border-radius:8px;padding:22px 10px 18px;background:linear-gradient(135deg,rgba(0,0,0,.65),rgba(93,55,10,.42));text-align:center;box-shadow:0 18px 50px rgba(0,0,0,.55),inset 0 0 35px rgba(216,154,36,.12)}
-.s1{font-size:24px;letter-spacing:6px;color:#f0d08b;text-transform:uppercase;white-space:nowrap}
-.s2{font-size:42px;line-height:.95;color:#e7a735;font-weight:950;text-transform:uppercase;text-shadow:0 3px 0 #5a3104;white-space:nowrap}
-.s3{font-size:12px;color:#f2dca9;letter-spacing:1px;margin-top:12px;text-transform:uppercase}
-.radio-info{padding:34px 34px 24px 0}.onair{color:var(--gold2);font-weight:900;text-transform:uppercase;font-size:13px;letter-spacing:1.3px;margin-bottom:16px}.radio-info h2{margin:0 0 12px;font-size:29px;color:#e9dec9}.radio-info p{margin:0 0 18px;line-height:1.45;color:#d1c3ac;font-size:16px}
-audio{width:100%;margin-top:12px}.radio-link{color:#d6a546;display:inline-block;margin-top:16px;font-size:16px}
-.bottom-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:24px;margin-top:14px;padding:0 10px}.box{border:1px solid rgba(216,154,36,.22);border-radius:14px;background:rgba(9,8,7,.78);padding:24px 28px 28px;box-shadow:0 16px 42px rgba(0,0,0,.24)}.box h3{margin:0 0 18px;text-transform:uppercase;color:#e6d8bd;letter-spacing:.8px;font-size:18px}.box h3:after{content:"";display:block;width:62px;height:2px;background:var(--gold);margin-top:9px}
-.videos{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.video-card{display:block}.thumb{height:108px;border-radius:9px;background:linear-gradient(135deg,rgba(216,154,36,.22),rgba(0,0,0,.55)),#1a140e;border:1px solid rgba(255,255,255,.1);margin-bottom:12px;position:relative;overflow:hidden}.thumb:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at center,rgba(243,189,78,.16),transparent 56%)}.thumb:after{content:"▶";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:42px;height:42px;border-radius:50%;background:rgba(0,0,0,.62);display:flex;align-items:center;justify-content:center;color:#f0c15e}.video-title{font-size:14px;line-height:1.35;margin-bottom:7px;color:#f0e0c5}.time{color:#827662;font-size:13px}.all-videos{margin-top:18px;color:#d6a546;display:inline-block}
-.platforms{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.platform{height:58px;border-radius:10px;border:1px solid rgba(216,154,36,.22);background:rgba(255,255,255,.035);display:flex;align-items:center;gap:12px;padding:0 16px;font-weight:800;color:#e7dac2}.pico{width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#f7c45b,#af6208);color:#120b04;font-size:14px;font-weight:900}
-footer{text-align:center;color:rgba(213,199,173,.42);padding:22px 0 0;font-size:14px}
-@media(max-width:1200px){.site{padding:0 24px 24px}header{grid-template-columns:250px 1fr;height:auto;padding:18px 0}.social{display:none}nav{gap:20px;justify-content:flex-end}.hero{grid-template-columns:420px 1fr;gap:34px}h1{font-size:70px}.actions{grid-template-columns:1fr;gap:14px}.radio-panel{grid-template-columns:1fr}.radio-info{padding:0 26px 26px}}
-@media(max-width:850px){.site{padding:0 14px 24px}header{display:block}.logo{margin:14px 0}nav{justify-content:flex-start;gap:16px;overflow-x:auto}.hero{grid-template-columns:1fr;padding-top:20px}.portrait{min-height:420px}.portrait img{height:520px}.hero-content{padding-top:0}h1{font-size:48px}.lead{font-size:16px}.bottom-grid{grid-template-columns:1fr;padding:0}.videos{grid-template-columns:1fr 1fr}.platforms{grid-template-columns:1fr}}
-@media(max-width:520px){.videos{grid-template-columns:1fr}.s1{font-size:20px}.s2{font-size:34px}}
+.portrait{min-height:650px;overflow:hidden;background:#090705}
+.portrait img{width:100%;height:650px;object-fit:cover;object-position:center top;display:block}
+.hero-content{padding-top:52px}
+h1{font-size:72px;margin:0 0 20px}
+.lead{font-size:18px;line-height:1.6;color:#cfc2ad;max-width:720px}
+.bottom-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:24px;margin-top:20px;padding:0 10px}
+.box{border:1px solid rgba(216,154,36,.22);border-radius:14px;background:rgba(9,8,7,.78);padding:24px 28px 28px}
+.box h3{margin:0 0 18px;text-transform:uppercase}
+.videos{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.thumb{height:120px;border-radius:8px;overflow:hidden}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.video-title{font-size:14px;margin-top:8px}
 </style>
 </head>
 <body>
 <div class="site">
+
 <header>
 <a href="#" class="logo">B.O.COMPANY<span>BOSAX MUSIC PROJECT</span></a>
-<nav><a class="active" href="#">Главная</a><a href="radio.html">Радио</a><a href="#music">Музыка</a><a href="#video">Видео</a><a href="#about">О проекте</a><a href="#contact">Контакты</a></nav>
-<div class="social"><a class="circle" href="https://vk.com/boorisorlov" target="_blank">VK</a><a class="circle" href="https://t.me/BorisOrlov55" target="_blank">TG</a><a class="circle" href="https://www.youtube.com/channel/UCeNw7B2h_FtoA8ra0aVfJZQ" target="_blank">▶</a></div>
+<nav><a class="active" href="#">Главная</a></nav>
 </header>
+
 <section class="hero">
-<div class="portrait"><img src="boris.jpg" alt="Boris Orlov"></div>
+<div class="portrait"><img src="boris.jpg"></div>
 <div class="hero-content">
-<div class="kicker">AUTHOR · PRODUCER · MUSIC PROJECT</div>
 <h1>BORIS ORLOV</h1>
-<p class="lead">Автор проекта B.O.Company. Тексты, песни, музыкальные истории и авторская атмосфера. Музыка BOSAX, блюз, рок, lounge, cinematic, ambient и другие направления без лишних рамок.</p>
-<div class="actions"><a class="action primary" href="radio.html"><span class="ico">🎧</span><span>Слушать радио<small>Музыкальная КАЧегарка</small></span></a><a class="action" href="#video"><span class="ico">▷</span><span>Смотреть видео</span></a><a class="action" href="#music"><span class="ico">♫</span><span>Слушать музыку</span></a></div>
-<div class="radio-panel">
-<div class="radio-art"><div class="sign"><div class="s1">Музыкальная</div><div class="s2">КАЧегарка</div><div class="s3">Авторское радио B.O.Company</div></div></div>
-<div class="radio-info"><div class="onair">Сейчас в эфире</div><h2>Музыкальная КАЧегарка — live</h2><p>Авторское радио B.O.Company.<br>Без лишних слов. Только звук, который качает.</p><audio controls preload="none"><source src="https://myradio24.com/bocompany" type="audio/mpeg"></audio><a class="radio-link" href="radio.html">Перейти на страницу радио →</a></div>
-</div>
+<p class="lead">Музыкальный проект B.O.Company / BOSAX</p>
 </div>
 </section>
+
 <section class="bottom-grid">
-<div class="box" id="video"><h3>Новые видео</h3><div class="videos">
-<a class="video-card" href="https://www.youtube.com/watch?v=0ZD9r1xiflc" target="_blank"><div class="thumb"></div><div class="video-title">BOSAX — Night Train Blues</div><div class="time">3:45</div></a>
-<a class="video-card" href="https://www.youtube.com/watch?v=UQuliBCN9o4" target="_blank"><div class="thumb"></div><div class="video-title">B.O.Company — Live Session</div><div class="time">4:12</div></a>
-<a class="video-card" href="https://www.youtube.com/watch?v=yaLEs1h2E5o" target="_blank"><div class="thumb"></div><div class="video-title">Музыкальная КАЧегарка</div><div class="time">2:28</div></a>
-<a class="video-card" href="https://www.youtube.com/watch?v=rJRjMFjWH_k" target="_blank"><div class="thumb"></div><div class="video-title">B.O.Company — Road Movie</div><div class="time">3:33</div></a>
-</div><a class="all-videos" href="https://www.youtube.com/channel/UCeNw7B2h_FtoA8ra0aVfJZQ" target="_blank">Смотреть все видео →</a></div>
-<div class="box" id="music"><h3>Слушайте на площадках</h3><div class="platforms">
-<a class="platform" href="https://music.yandex.ru/artist/22794455" target="_blank"><span class="pico">Y</span>Yandex Music</a>
-<a class="platform" href="https://open.spotify.com/artist/3qsicx6WhSPjKmai3lW5LT" target="_blank"><span class="pico">S</span>Spotify</a>
-<a class="platform" href="https://www.youtube.com/channel/UCeNw7B2h_FtoA8ra0aVfJZQ" target="_blank"><span class="pico">▶</span>YouTube Music</a>
-<a class="platform" href="https://vk.com/video/@boorisorlov" target="_blank"><span class="pico">VK</span>VK Music</a>
-<a class="platform" href="https://t.me/BorisOrlov55" target="_blank"><span class="pico">TG</span>Telegram</a>
-<a class="platform" href="https://www.facebook.com/profile.php?id=100000457608503" target="_blank"><span class="pico">F</span>Facebook</a>
-</div></div>
+
+<div class="box" id="video">
+<h3>Новые видео</h3>
+
+<div class="videos">
+
+<a class="video-card" href="https://youtu.be/UQuliBCN9o4" target="_blank">
+<div class="thumb">
+<img src="https://img.youtube.com/vi/UQuliBCN9o4/hqdefault.jpg">
+</div>
+<div class="video-title">Видео 1</div>
+</a>
+
+<a class="video-card" href="https://youtu.be/kwuQgkbq33Q" target="_blank">
+<div class="thumb">
+<img src="https://img.youtube.com/vi/kwuQgkbq33Q/hqdefault.jpg">
+</div>
+<div class="video-title">Видео 2</div>
+</a>
+
+<a class="video-card" href="https://youtu.be/9X2ZHzdreeQ" target="_blank">
+<div class="thumb">
+<img src="https://img.youtube.com/vi/9X2ZHzdreeQ/hqdefault.jpg">
+</div>
+<div class="video-title">Видео 3</div>
+</a>
+
+<a class="video-card" href="https://youtu.be/bPeFxM8MSo8" target="_blank">
+<div class="thumb">
+<img src="https://img.youtube.com/vi/bPeFxM8MSo8/hqdefault.jpg">
+</div>
+<div class="video-title">Видео 4</div>
+</a>
+
+</div>
+
+</div>
+
 </section>
-<footer id="contact">© B.O.Company / BOSAX Music Project · Все права защищены</footer>
+
 </div>
 </body>
 </html>
